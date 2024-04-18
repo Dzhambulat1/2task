@@ -1,0 +1,92 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+p {
+  margin-left: 14px;
+ color: white;
+}
+
+
+a {
+color: beige;
+}
+.header {
+  height: 72px;
+  background: darkmagenta;
+  color: white;
+  font-size: 25px;
+  font-weight: 900;
+  display: flex;
+  text-align: start;
+  flex-direction: row;
+  
+}
+
+.containers {
+  display: flex;
+  flex-direction: row;
+
+  height: 800px;
+  flex-wrap: wrap;
+
+
+
+}
+.holi {
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+  margin-right: 343px;
+
+}
+
+.klink {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  padding-bottom: 31px;
+  padding-top: 31px;
+  margin: 23px;
+
+
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: flex-start;
+  color: white;
+  
+  
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  width: 300px;
+  margin: 0;
+padding-top: 12px;
+padding-right: 12px;
+padding-bottom: 35px;
+padding-left: 12px;
+
+
+}
